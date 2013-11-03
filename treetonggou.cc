@@ -51,12 +51,14 @@ bool rfs(int u,int v,Tree &tree1,Tree &tree2){
   }
   sort(vec1.begin(),vec1.end(),mycmp);
   sort(vec2.begin(),vec2.end(),mycmp);
+  cout<<"(<"<<u<<","<<V1[u]<<">[";
   for(int i=0;i<vec1.size();i++){
     pair<int,int> p1=vec1[i];
     pair<int,int> p2=vec2[i];
     if(p1.second!=p2.second) return false;
     if(!rfs(p1.first,p2.first,tree1,tree2)) return false;
   }
+  cout<<"])";
   return true;
 }
 int main(){
