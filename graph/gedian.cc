@@ -64,7 +64,7 @@ void dfs_gedian(int u,int p){//p is the parent of u on the 'tree'
       else low[u]=min(low[u],dfn[v]);//make sure low[u]<=dfn[v]
     }
   }
-  if(isGeDian) sstack.push(u);//u is gedian
+  if(isGeDian) gedians.push_back(u);//u is gedian
 }
 int main(){
   int M;
