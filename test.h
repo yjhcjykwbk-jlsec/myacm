@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include <vector>
+#include <stack>
 #include <string.h>
 #include <set>
 using namespace std;
