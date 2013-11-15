@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <queue>
 #include <string.h>
 #include <set>
 using namespace std;
